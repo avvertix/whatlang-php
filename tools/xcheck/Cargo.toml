@@ -1,0 +1,9 @@
+[package]
+name = "xcheck"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Expects whatlang-rs checked out next to whatlang-php. Pass a different path
+# to tools/generate-fixture.php to rewrite this.
+whatlang = { path = "../../../whatlang-rs" }

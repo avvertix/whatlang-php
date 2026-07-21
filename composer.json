@@ -1,0 +1,54 @@
+{
+    "name": "avvertix/whatlang-php",
+    "description": "Fast and lightweight natural language identification for PHP. A port of whatlang-rs.",
+    "keywords": [
+        "avvertix",
+        "whatlang",
+        "language",
+        "language-detection",
+        "language-identification",
+        "nlp",
+        "script-detection",
+        "text"
+    ],
+    "homepage": "https://github.com/avvertix/whatlang-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alessio Vertemati",
+            "email": "5672748+avvertix@users.noreply.github.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.3.2",
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avvertix\\WhatLang\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avvertix\\WhatLang\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
