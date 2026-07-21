@@ -1,5 +1,5 @@
 {
-    "name": "avvertix/whatlang-php",
+    "name": "avvertix/language-detect-php",
     "description": "Fast and lightweight natural language identification for PHP. A port of whatlang-rs.",
     "keywords": [
         "avvertix",
@@ -11,7 +11,7 @@
         "script-detection",
         "text"
     ],
-    "homepage": "https://github.com/avvertix/whatlang-php",
+    "homepage": "https://github.com/avvertix/language-detect-php",
     "license": "MIT",
     "authors": [
         {

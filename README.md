@@ -1,8 +1,8 @@
 # whatlang-php
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/avvertix/whatlang-php.svg?style=flat-square)](https://packagist.org/packages/avvertix/whatlang-php)
-[![Tests](https://github.com/avvertix/whatlang-php/actions/workflows/run-tests.yml/badge.svg)](https://github.com/avvertix/whatlang-php/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/avvertix/whatlang-php.svg?style=flat-square)](https://packagist.org/packages/avvertix/whatlang-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/avvertix/language-detect-php.svg?style=flat-square)](https://packagist.org/packages/avvertix/language-detect-php)
+[![Tests](https://github.com/avvertix/language-detect-php/actions/workflows/run-tests.yml/badge.svg)](https://github.com/avvertix/language-detect-php/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/avvertix/language-detect-php.svg?style=flat-square)](https://packagist.org/packages/avvertix/language-detect-php)
 
 Detects the natural language and writing system of a text. 70 languages, 25 scripts, no
 extensions beyond `mbstring`, no network calls, no model files to download.
@@ -15,10 +15,10 @@ is equally correct — see [Parity with whatlang-rs](#parity-with-whatlang-rs).
 ## Installation
 
 ```bash
-composer require avvertix/whatlang-php
+composer require avvertix/language-detect-php
 ```
 
-Requires PHP 8.3 and `ext-mbstring`.
+Requires PHP 8.4 and `ext-mbstring`.
 
 ## Usage
 
