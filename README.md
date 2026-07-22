@@ -1,4 +1,4 @@
-# whatlang-php
+# Language Detection in PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/avvertix/language-detect-php.svg?style=flat-square)](https://packagist.org/packages/avvertix/language-detect-php)
 [![Tests](https://github.com/avvertix/language-detect-php/actions/workflows/run-tests.yml/badge.svg)](https://github.com/avvertix/language-detect-php/actions/workflows/run-tests.yml)
@@ -8,9 +8,6 @@ Detects the natural language and writing system of a text. 70 languages, 25 scri
 extensions beyond `mbstring`, no network calls, no model files to download.
 
 This is a port of [whatlang-rs](https://github.com/greyblake/whatlang-rs) by Sergey Potapov.
-It follows the Rust implementation closely enough that the two agree on 1416 of 1426 samples
-in the cross-check corpus, and the remaining ten are exact scoring ties where either answer
-is equally correct — see [Parity with whatlang-rs](#parity-with-whatlang-rs).
 
 ## Installation
 
@@ -159,7 +156,7 @@ composer test
 
 ## Derivation
 
-whatlang-php is a derivative work of [whatlang-rs](https://github.com/greyblake/whatlang-rs)
+Language Detection PHP is a derivative work of [whatlang-rs](https://github.com/greyblake/whatlang-rs)
 (Rust, MIT) by Sergey Potapov. The detection algorithm, the trigram profiles and the alphabet
 tables all originate there.
 
